@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import OrderBar from "./OrderBar";
 import ProductList from "./ProductList";
@@ -7,19 +7,50 @@ import TopBar from "./TopBar";
 
 import { categories, options, products } from "@/public/js/options";
 
-const categoriesWithProducts = categories.map((category) => {
-  const categoryProducts = products
-    .filter((product) => product.categoryID === category._id.$oid)
-    .filter((product) => product.appear)
-    .sort((a, b) => a.usdprice - b.usdprice); // Sort from lowest to highest price
-  return { ...category, products: categoryProducts };
-});
-
 export default function Menu() {
+  const categoriesWithProducts = categories.map((category) => {
+    const categoryProducts = products
+      .filter((product) => product.categoryID === category._id.$oid)
+      .filter((product) => product.appear)
+      .sort((a, b) => a.usdprice - b.usdprice); // Sort from lowest to highest price
+    const categoryHeight = category.description ? 144 : 104;
+    const productsHeight =
+      categoryProducts.length * 178 + (categoryProducts.length - 2) * 16 * 1;
+
+    const height = categoryHeight + productsHeight;
+    return { ...category, products: categoryProducts, height };
+  });
+
+  categoriesWithProducts.forEach((category, index) => {
+    if (index !== 0) {
+      category.height += categoriesWithProducts[index - 1].height;
+    }
+  });
+
   const [state, setState] = useState("Fruits Tea");
   const rate = options[0].rate;
   const [selectedItems, setSelectedItems] = useState([]);
   const [orderBarHeight, setOrderBarHeight] = useState(0);
+
+  const [yLocation, setYLocation] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setYLocation(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const closestCategory = categoriesWithProducts.find(
+      (category) => yLocation <= category.height
+    );
+
+    setState(closestCategory.name);
+  }, [yLocation]);
 
   const phoneNumber = "+96170097533";
 

@@ -14,7 +14,7 @@ const ProductList = ({ products, rate, selectedItems, addToSelectedItems }) => {
         return (
           <div
             key={j}
-            className={`bg-white p-4 rounded shadow-md shadow-orange-200`}
+            className={`bg-white p-4 rounded shadow-md shadow-mogeColor`}
           >
             <Product
               product={product}

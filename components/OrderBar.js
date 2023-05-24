@@ -34,13 +34,13 @@ export default function OrderBar({
         <div className="flex flex-col items-center gap-2">
           <button
             onClick={clearSelectedItems}
-            className="mr-2 w-20 bg-orange-300 p-1 rounded-sm"
+            className="mr-2 w-20 bg-orange-300 p-1 rounded-sm text-white bg-red-500"
           >
             Clear
           </button>
           <button
             onClick={sendOrder}
-            className="flex items-center justify-center gap-1 mr-2 w-20 bg-orange-300 p-1 rounded-sm"
+            className="flex items-center justify-center gap-1 mr-2 w-20 text-black bg-mogeColor p-1 rounded-sm"
           >
             <BsWhatsapp /> Order
           </button>
