@@ -34,8 +34,6 @@ export default function Product({
     }
   }, [selectedQuantity]);
 
-  product.exits === false && console.log("Raspberry  ", product);
-
   return (
     <div className="flex h-full justify-between">
       <div className="flex flex-col justify-between">
