@@ -9,7 +9,7 @@ const categorySchema = new mongoose.Schema(
     titleBackground: { type: String },
     titleColor: { type: String },
     background: { type: String },
-    topTitle: { type: String },
+    topTitle: { type: String }
   },
 
   { collection: "categories" }

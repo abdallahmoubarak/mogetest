@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema(
     number: { type: String, unique: true },
     otp: { type: String },
     otptimes: { type: Number },
-    jwt: { type: String },
+    jwt: { type: String }
   },
   { collection: "users" }
 );

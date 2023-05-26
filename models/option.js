@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const optionSchema = new mongoose.Schema(
   {
-    rate: { type: Number },
+    rate: { type: Number }
   },
   { collection: "options" }
 );

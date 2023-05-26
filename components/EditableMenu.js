@@ -1,26 +1,27 @@
-import Image from "next/image";
+import TopBar from "./TopBar";
 import { useEffect, useState } from "react";
 import axios from "axios";
-
-import OrderBar from "./OrderBar";
 import ProductList from "./ProductList";
-import TopBar from "./TopBar";
 
 export default function Menu() {
   const [state, setState] = useState("Fruits Tea");
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
-  const [rate, setRate] = useState(46000);
+  const [rate, setRate] = useState();
   const [categoriesWithProducts, setCategoriesWithProducts] = useState([]);
-
-  const [selectedItems, setSelectedItems] = useState([]);
-  const [orderBarHeight, setOrderBarHeight] = useState(0);
 
   useEffect(() => {
     axios.get("/api/categories").then((res) => setCategories(res.data));
     axios.get("/api/rate").then((res) => setRate(JSON.parse(res.data)));
     axios.get("/api/products").then((res) => setProducts(res.data));
   }, []);
+
+  // Create a function to refetch the data from the database
+  const refetchData = () => {
+    axios.get("/api/categories").then((res) => setCategories(res.data));
+    axios.get("/api/rate").then((res) => setRate(JSON.parse(res.data)));
+    axios.get("/api/products").then((res) => setProducts(res.data));
+  };
 
   useEffect(() => {
     const categoriesWithProducts = categories.map((category) => {
@@ -55,83 +56,31 @@ export default function Menu() {
     setCategoriesWithProducts(categoriesWithProducts);
   }, [categories, products]);
 
-  const [yLocation, setYLocation] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setYLocation(window.scrollY);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  useEffect(() => {
-    categoriesWithProducts.length > 0 &&
-      (() => {
-        const closestCategory = categoriesWithProducts.find(
-          (category) => yLocation <= category.height
-        );
-
-        closestCategory && setState(closestCategory.name);
-      })();
-  }, [yLocation, categoriesWithProducts]);
-
-  const phoneNumber = "+96170097533";
-
-  const addToSelectedItems = (product, quantity) => {
-    const updatedItems = selectedItems.filter(
-      (item) => item.product !== product
-    );
-    if (quantity > 0) {
-      updatedItems.push({ product, quantity });
-    }
-    setSelectedItems(updatedItems);
-  };
-
-  const clearSelectedItems = () => {
-    if (confirm("Are you sure you want to clear the order?")) {
-      setSelectedItems([]);
-    }
-  };
-
-  const sendOrder = () => {
-    let message = ``;
-    let totalUSD = 0;
-    let totalLBP = 0;
-    selectedItems.forEach((item) => {
-      const { product, quantity } = item;
-      const totalPriceUSD = quantity * product.usdprice;
-      const totalPriceLBP = Math.round((totalPriceUSD * rate) / 1000) * 1000;
-      message += `${quantity} ${product.name}\n`;
-      totalUSD += totalPriceUSD;
-      totalLBP += totalPriceLBP;
-    });
-
-    message += `\n___________________________\nTotal: $${totalUSD.toFixed(
-      2
-    )} / LBP ${totalLBP.toLocaleString()}`;
-
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    window.open(whatsappURL, "_blank");
-  };
-
   return (
     <>
-      <TopBar
-        categories={categories}
-        state={state}
-        setState={setState}
-        main={true}
-      />
-      <div
-        className={
-          selectedItems.length > 0 &&
-          (orderBarHeight < 150 ? `mb-[24vh]` : `mb-[32vh]`)
-        }
-      >
+      <TopBar categories={categories} state={state} setState={setState} />
+      {/* <div onClick={() => axios.get("/api/update")}>reset</div> */}
+      <div className="mt-16 md:mt-20 flex w-full flex-nowrap gap-1 px-4 items-center mb-2">
+        <span>Dollar Rate: 1$ = </span>{" "}
+        <input
+          className="w-28 border border-mogeColor p-1"
+          placeholder={"Rate"}
+          type="number"
+          value={rate}
+          onChange={(e) => setRate(e.target.value)}
+          onBlur={() => {
+            axios
+              .put(
+                "/api/rate",
+                { rate },
+                { "content-type": "application/json" }
+              )
+              .then((res) => res.data === "done" && alert("done"));
+          }}
+        />
+        <span> L.L </span>
+      </div>
+      <div>
         {categoriesWithProducts?.map((category, i) => (
           <div key={i} id={category.name}>
             <div
@@ -162,26 +111,13 @@ export default function Menu() {
               <ProductList
                 products={category.products}
                 rate={rate}
-                selectedItems={selectedItems}
-                addToSelectedItems={addToSelectedItems}
+                admin={true}
+                refetchData={refetchData}
               />
             </div>
           </div>
         ))}
-        {selectedItems.length > 0 && (
-          <OrderBar
-            rate={rate}
-            selectedItems={selectedItems}
-            clearSelectedItems={clearSelectedItems}
-            sendOrder={sendOrder}
-            setOrderBarHeight={setOrderBarHeight}
-          />
-        )}
       </div>
-
-      {/* <Link href="https://www.za-apps.com">
-        <div className="watermark">Made with ❤ by za-apps.com</div>
-      </Link> */}
     </>
   );
 }

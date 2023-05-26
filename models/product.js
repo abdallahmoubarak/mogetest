@@ -13,6 +13,7 @@ const productSchema = new mongoose.Schema(
     appear: { type: Boolean, default: true },
     exist: { type: Boolean, default: true },
     hidden: { type: Boolean, default: false },
+    order: { type: Number, default: 1 },
   },
   { collection: "products" }
 );
