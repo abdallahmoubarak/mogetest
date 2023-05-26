@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "62c6b7a667b62b003d0d1d22"
+  },
+  "hidden": false,
+  "name": "Fruits Tea",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T10:38:30.735Z"
+  },
+  "__v": 0,
+  "description": "⭐ Cheese available as a topping"
+},{
+  "_id": {
+    "$oid": "62c6b91467b62b003d0d1d23"
+  },
+  "hidden": false,
+  "name": "Milk Tea",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T10:44:36.946Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c258084d5e003d073995"
+  },
+  "hidden": false,
+  "name": "Special Tea",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:24:08.321Z"
+  },
+  "__v": 0,
+  "description": "⭐ Cheese available as a topping"
+},{
+  "_id": {
+    "$oid": "62c6c262084d5e003d073996"
+  },
+  "hidden": false,
+  "name": "Coffee",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:24:18.568Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c26c084d5e003d073997"
+  },
+  "hidden": false,
+  "name": "Milk Shakes",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:24:28.448Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c277084d5e003d073998"
+  },
+  "hidden": false,
+  "name": "Sugar Milk",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:24:39.615Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c282084d5e003d073999"
+  },
+  "hidden": false,
+  "name": "Souffle",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:24:50.310Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c28a084d5e003d07399a"
+  },
+  "hidden": false,
+  "name": "Frappe",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:24:58.592Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c292084d5e003d07399b"
+  },
+  "hidden": false,
+  "name": "Dessert",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:25:06.034Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6c299084d5e003d07399c"
+  },
+  "hidden": false,
+  "name": "Topping",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:25:13.997Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632f2d2c91cf920966e63bbc"
+  },
+  "hidden": false,
+  "name": "Mochi",
+  "titleBackground": "#fed493",
+  "titleColor": "#F2E5DD",
+  "background": "#fff",
+  "topTitle": "#DD948E",
+  "addingDates": {
+    "$date": "2022-07-07T11:25:13.997Z"
+  },
+  "__v": 0
+}]

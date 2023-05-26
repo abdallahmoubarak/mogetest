@@ -1,0 +1,1254 @@
+[{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7454"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Fruits Green Tea",
+  "description": "Ice cubes with fresh fruits and Green tea",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "FruitGreenTea",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7453"
+  },
+  "price": 130,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Orange Green Tea",
+  "description": "Ice blended with fresh orange and Green tea",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "OrangeGreenTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7455"
+  },
+  "price": 130,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Grape Fruit Green Tea",
+  "description": "Ice blended with fresh grape fruit and Green tea",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "GrapeFruitGreenTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7456"
+  },
+  "price": 130,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Lemon Green Tea",
+  "description": "Ice cubes with fresh Lemon and Green tea",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "LemonGreenTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7458"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Peach Oolong Tea",
+  "description": "Ice blended with Fresh Peach Oolong tea  / Cream cheese is added as a topping ",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "PeachOolongTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7457"
+  },
+  "price": 130,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Lemon Oolong Tea",
+  "description": "Ice cubes with fresh Lemon Oolong tea",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "LemonGreenTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7459"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Pineapple Green Tea",
+  "description": "Ice blended with fresh Pineapple and Green tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "PineappleGreenTea",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb745b"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Watermelon Oolong Tea",
+  "description": "Ice blended with fresh watermelon and Green tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "WatermelonOolongTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb745a"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Strawberry Green Tea",
+  "description": "Ice blended with fresh strawberries and Green tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "StrawberryGreenTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb745c"
+  },
+  "price": 170,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Mango Green Tea",
+  "description": "Ice blended with Fresh Mango and Green tea  / Cream cheese is added as a topping ",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "MangoGreenTea",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb745e"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Grape Green Tea",
+  "description": "Ice blended with Fresh Grape and Green tea / / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "GrapeGreenTea",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb745d"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Berry Green Tea",
+  "description": "Ice blended with Fresh Blue Berry, Strawberry and Green Tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "StrawberryGreenTea",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb745f"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Melon Oolong Tea",
+  "description": "Ice blended with Fresh Melon and Oolong Tea / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "MelonOolongTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7461"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": " Milk Tea",
+  "description": "Classic silky milk tea served without cheese top ",
+  "categoryID": "62c6b91467b62b003d0d1d23",
+  "image": "CheeseMilkTea",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7460"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Dragon Fruit Oolong Tea",
+  "description": "Ice blended with Fresh Dragon Fruit and Oolong Tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "DragonFruitOolongTea",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7462"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Uji Matcha Latte",
+  "description": "Japanese traditional matcha from Uji, Kyoto",
+  "categoryID": "62c6b91467b62b003d0d1d23",
+  "image": "UjiMatchaLatte",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7464"
+  },
+  "price": 170,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Cream Brule milk Tea",
+  "description": "Classic silky milk tea served with rich crème brûlée (No tapioca in this item, add topping if you like)",
+  "categoryID": "62c6b91467b62b003d0d1d23",
+  "image": "CreamBrulemilkTea",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7463"
+  },
+  "price": 170,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Buble Milk Tea",
+  "description": "Classic silky milk tea with freshly made chewy tapioca",
+  "categoryID": "62c6b91467b62b003d0d1d23",
+  "image": "BubbleMilkTea",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7465"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Brown Sugar Milk Tea",
+  "description": "Classic silky milk tea served with brown suger tapioca ",
+  "categoryID": "62c6b91467b62b003d0d1d23",
+  "image": "BrownsugarCoffee",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7466"
+  },
+  "price": 170,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Oreo Milk Tea",
+  "description": "Classic silky milk tea and Oreo crumbs deliciously finished with whipped cream and another layer of Oreo crumbs on top (No tapioca in this item, add topping if you like) ",
+  "categoryID": "62c6b91467b62b003d0d1d23",
+  "image": "OreoMilkTea",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7468"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Othmanthos Tea",
+  "description": "Freshly brewed Othmanthos tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseOthmanthosTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7467"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Oolong Tea",
+  "description": "Freshly brewed Oolong tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseOolongTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7469"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Rose Oolong Tea",
+  "description": "Freshly brewed Rose Oolong tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseRoseOolongTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb746a"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Green Tea",
+  "description": "Freshly brewed Green tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseOthmanthosTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb746b"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Jin-feng Tea",
+  "description": "Freshly brewed Jin-feng tea  / Cream cheese is added as a topping",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseOthmanthosTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb746c"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Dong-ding Tea",
+  "description": "Freshly brewed Dong-ding tea / Cream cheese is added as a topping",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseOthmanthosTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb746d"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "White Peach Oolong Tea",
+  "description": "Freshly brewed white peach Oolong tea / Cream cheese is added as a topping ",
+  "categoryID": "62c6c258084d5e003d073995",
+  "image": "CheeseOthmanthosTea",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb746e"
+  },
+  "price": 100,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Mocha",
+  "description": "Essentially a chocolate flavored variant of a cafe latte",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "Mocha",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7470"
+  },
+  "price": 100,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Hot Chocolate",
+  "description": "Cocoa powder, with choclate chunks with milk",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "HotChocolate",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb746f"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Latte",
+  "description": "One shot of espresso, with steamed milk, and thin layer of frothed milk on top",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "Latte",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7471"
+  },
+  "price": 100,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "White Mocha",
+  "description": "Coffee drink made out of an espresso shot, hot milk, and white chocolate syrup",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "Latte",
+  "__v": 0,
+  "usdprice": 3.5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7472"
+  },
+  "price": 120,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Brown Sugar Coffee",
+  "description": "cold brew coffee, brown sugar tapioca, and splash of milk",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "BrownsugarCoffee",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7473"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Nescafe",
+  "description": "Nescafe",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "Mocha",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7474"
+  },
+  "price": 40,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "American Coffe",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "Americano",
+  "__v": 0,
+  "usdprice": 2
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7475"
+  },
+  "price": 30,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Espresso ",
+  "description": "Espresso",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "Coffee",
+  "__v": 0,
+  "usdprice": 2
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7477"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Chocolate Milkshake",
+  "description": "Contains chocloate chunks (blended)",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "ChocolateMilkshake",
+  "__v": 0,
+  "usdprice": 4.5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7479"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Strawberry Milkshake",
+  "description": "Contains fresh Strawberry",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "StrawberryMilkshake",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7478"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Passion Fruit Milkshake",
+  "description": "Contains fresh Passion Fruit",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "PassionFruitMilkshake",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb747a"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Oreo Milkshake",
+  "description": "Contains Oreo cookies (blended)",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "OreoMilkshake",
+  "__v": 0,
+  "usdprice": 4.5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb747c"
+  },
+  "price": 190,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "BlueBerry Milkshake",
+  "description": "Contains fresh BlueBerry.",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "BlueBerryMilkshake",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7476"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Mango Milkshake",
+  "description": "Contains fresh mangos",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "MangoMilkshake",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb747d"
+  },
+  "price": 130,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Vanilla Milkshake",
+  "description": "Contains Vanilla syrup.",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "VanillaMilkshake",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb747e"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Brown Sugar Milk",
+  "description": "",
+  "categoryID": "62c6c277084d5e003d073998",
+  "image": "BrownSugarMilk",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb747b"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Raspberry Milkshake",
+  "description": "Contains fresh Raspberry",
+  "categoryID": "62c6c26c084d5e003d073997",
+  "image": "RaspberryMilkshake",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7480"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Strawberry Milk",
+  "description": "",
+  "categoryID": "62c6c277084d5e003d073998",
+  "image": "StrawberryMilk",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb747f"
+  },
+  "price": 110,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Mango Milk",
+  "description": "",
+  "categoryID": "62c6c277084d5e003d073998",
+  "image": "MangoMilk",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7482"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Strawberry Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "StrawberrySouffle",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7481"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Taro Milk",
+  "description": "",
+  "categoryID": "62c6c277084d5e003d073998",
+  "image": "TaroMilk",
+  "__v": 0,
+  "usdprice": 4.5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7483"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Chocolate Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "ChocolateSouffle",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7484"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Marshmallow Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "MarshmallowSouffle",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7486"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Cream-brule Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "CreamBruleSouffle",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7487"
+  },
+  "price": 170,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Tiramisu Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "TiramisuSouffle",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb748a"
+  },
+  "price": 160,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Oreo Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "OreoSouffle",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7485"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Raspberry Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "RaspberrySouffle",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7489"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Black Pearls Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "BlackPearlsSouffle",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb748c"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Caramel Frappe",
+  "description": "Contains a shot of coffe",
+  "categoryID": "62c6c28a084d5e003d07399a",
+  "image": "CaramelFrappe",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb748b"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Oreo Frappe",
+  "categoryID": "62c6c28a084d5e003d07399a",
+  "image": "OreoMilkshake",
+  "__v": 0,
+  "usdprice": 5.5,
+  "description": "Contains a shot of coffe"
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb748d"
+  },
+  "price": 150,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Chocolate Frappe",
+  "categoryID": "62c6c28a084d5e003d07399a",
+  "image": "ChocolateMilkshake",
+  "__v": 0,
+  "usdprice": 5.5,
+  "description": "Contains a shot of coffe"
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7488"
+  },
+  "price": 140,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Mango Souffle",
+  "description": "Fluffy Japanese pancake ",
+  "categoryID": "62c6c282084d5e003d073999",
+  "image": "MangoSouffle",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb748f"
+  },
+  "price": 90,
+  "hasImg": false,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Crispy cheese Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "CrispyPancake",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb748e"
+  },
+  "price": 90,
+  "hasImg": false,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Chocolate cheese Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "ChocolatePancake",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7490"
+  },
+  "price": 80,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Cheese Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "CheesePancake",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7493"
+  },
+  "price": 90,
+  "hasImg": false,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Snickers  Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "ChocolatePancake",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7492"
+  },
+  "price": 90,
+  "hasImg": false,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Kitkat  cheese Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "ChocolatePancake",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7494"
+  },
+  "price": 100,
+  "hasImg": false,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Raspberry cheese Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "RaspberryPancake",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7495"
+  },
+  "price": 100,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Trifle Brownie",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "TrifleBrowni",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7491"
+  },
+  "price": 90,
+  "hasImg": false,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Oreo cheese Dorayaki",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "OreoPancake",
+  "__v": 0,
+  "usdprice": 3
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7496"
+  },
+  "price": 100,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Trifle Creme Brulee",
+  "description": "",
+  "categoryID": "62c6c292084d5e003d07399b",
+  "image": "TrifleCremeBrulee",
+  "__v": 0,
+  "usdprice": 5
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7497"
+  },
+  "price": 15,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "KitKat",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "KitKat",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7499"
+  },
+  "price": 40,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Brown Sugar",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "BrownSugar",
+  "__v": 0,
+  "usdprice": 1
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb749a"
+  },
+  "price": 30,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Cheese cream",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "cream",
+  "__v": 0,
+  "usdprice": 1
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb749c"
+  },
+  "price": 15,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Sauce",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "Sauce",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb749b"
+  },
+  "price": 15,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Fresh Fruits",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "FreshFruits",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb7498"
+  },
+  "price": 25,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Aloe vera Pearls",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "Sauce",
+  "__v": 0,
+  "usdprice": 1
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb749d"
+  },
+  "price": 10,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Matcha",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "Matcha",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb749e"
+  },
+  "price": 30,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Tapioca Bubble",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "Bubble",
+  "__v": 0,
+  "usdprice": 1
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb74a0"
+  },
+  "price": 10,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "Small Water",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "SmallWater",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c6f379e7e0350056eb749f"
+  },
+  "price": 10,
+  "hasImg": true,
+  "appear": false,
+  "exist": true,
+  "hidden": false,
+  "name": "cream",
+  "description": "",
+  "categoryID": "62c6c299084d5e003d07399c",
+  "image": "cream",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6302070e9100f03c7ac9c416"
+  },
+  "price": 110,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Caramel Latte",
+  "description": "",
+  "categoryID": "62c6c262084d5e003d073996",
+  "image": "CaramelFrappe",
+  "__v": 0,
+  "usdprice": 4
+},{
+  "_id": {
+    "$oid": "632c0d61fca2d237e43e17f2"
+  },
+  "price": 180,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "Passion Fruit Green Tea",
+  "description": "Fresh Passion Fruit and Green Tea",
+  "categoryID": "62c6b7a667b62b003d0d1d22",
+  "image": "PassionFruitGreenTea",
+  "__v": 0,
+  "usdprice": 6
+},{
+  "_id": {
+    "$oid": "632f2d2c91cf920966e63bbc"
+  },
+  "price": 70,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "CRÈME BRÛLÉE ",
+  "description": "Sweet glutinous rice flour filled with crème brule",
+  "categoryID": "632f2d2c91cf920966e63bbc",
+  "image": "CASTARD",
+  "__v": 0,
+  "usdprice": 2
+},{
+  "_id": {
+    "$oid": "632f37eb91cf920966e63bbe"
+  },
+  "price": 70,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "CHOCHOLATE",
+  "description": "Sweet glutinous rice flour filled with chocolate ",
+  "categoryID": "632f2d2c91cf920966e63bbc",
+  "image": "CHOCHOLATE",
+  "__v": 0,
+  "usdprice": 2
+},{
+  "_id": {
+    "$oid": "632f380191cf920966e63bbf"
+  },
+  "price": 70,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "MATCHA",
+  "description": "",
+  "categoryID": "632f2d2c91cf920966e63bbc",
+  "image": "MATCHA",
+  "__v": 0,
+  "usdprice": 2
+},{
+  "_id": {
+    "$oid": "632f381a91cf920966e63bc0"
+  },
+  "price": 70,
+  "hasImg": true,
+  "appear": true,
+  "exist": true,
+  "hidden": false,
+  "name": "STRAWBERRY",
+  "description": "",
+  "categoryID": "632f2d2c91cf920966e63bbc",
+  "image": "STRAWBERRY",
+  "__v": 0,
+  "usdprice": 2
+}]
