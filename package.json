@@ -1,7 +1,7 @@
 {
-  "name": "perfectooo",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "mogtee",
+  "version": "1",
+  "main": "_app.js",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -21,10 +21,12 @@
     "react-icons": "4.3.1"
   },
   "keywords": [],
-  "description": "",
+  "description": "mogtee Lebanon",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
-  }
+  },
+  "repository": "https://github.com/YasserShkeir/mogetee.git",
+  "author": "Yasser Shkeir <shkeiryasser@gmail.com>"
 }
