@@ -84,9 +84,7 @@ export default function Menu() {
         {categoriesWithProducts?.map((category, i) => (
           <div key={i} id={category.name}>
             <div
-              className={`text-4xl text-white font-bold py-2 px-2 pt-14 ${
-                i === 0 && `pt-16`
-              }`}
+              className={`text-4xl text-white font-bold py-2 px-2`}
               style={{
                 textShadow: `0px 0px 4px ${category.titleColor}`,
                 background: category.titleBackground,

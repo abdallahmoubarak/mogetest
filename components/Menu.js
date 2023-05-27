@@ -40,7 +40,7 @@ export default function Menu() {
         numberOfColumns = 3;
       }
       const productsHeight =
-        categoryProducts.length * 170 + (categoryProducts.length - 1) * 16;
+        categoryProducts.length * 160 + (categoryProducts.length - 1) * 16;
 
       const height = categoryHeight + productsHeight / numberOfColumns;
       return { ...category, products: categoryProducts, height };
@@ -119,23 +119,18 @@ export default function Menu() {
   };
 
   return (
-    <>
+    <div>
       <TopBar
         categories={categories}
         state={state}
         setState={setState}
         main={true}
       />
-      <div
-        className={
-          selectedItems.length > 0 &&
-          (orderBarHeight < 150 ? `mb-[24vh]` : `mb-[32vh]`)
-        }
-      >
+      <div>
         {categoriesWithProducts?.map((category, i) => (
           <div key={i} id={category.name}>
             <div
-              className={`text-4xl text-white font-bold py-2 px-2 pt-14 ${
+              className={`text-4xl text-white font-bold py-2 px-2 ${
                 i === 0 && `pt-16`
               }`}
               style={{
@@ -182,6 +177,6 @@ export default function Menu() {
       {/* <Link href="https://www.za-apps.com">
         <div className="watermark">Made with ❤ by za-apps.com</div>
       </Link> */}
-    </>
+    </div>
   );
 }

@@ -57,6 +57,16 @@ export default function Product({
         </div>
       </div>
       <div className="flex flex-col justify-start items-end ">
+        {product.hasImg && (
+          <div className="flex items-center justify-center w-[100px]">
+            <Image
+              src={`/img/products/${product.image}.png`}
+              alt={product.name}
+              width={260}
+              height={260}
+            />
+          </div>
+        )}
         {isOpened ? (
           <div className="flex flex-row items-center justify-center p-2 max-w-[100px] gap-2">
             <button
@@ -75,21 +85,14 @@ export default function Product({
           </div>
         ) : (
           <button
-            onClick={() => setIsOpened(true)}
+            onClick={() => {
+              setIsOpened(true);
+              increase();
+            }}
             className="flex items-center justify-center p-1 m-1 w-[80px] text-white bg-[#fed493] rounded-sm"
           >
             Order
           </button>
-        )}
-        {product.hasImg && (
-          <div className="flex items-center justify-center w-[100px]">
-            <Image
-              src={`/img/products/${product.image}.png`}
-              alt={product.name}
-              width={260}
-              height={260}
-            />
-          </div>
         )}
       </div>
     </div>

@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* remove the scroll bars */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* remove the scroll bars */
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

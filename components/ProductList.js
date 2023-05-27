@@ -31,10 +31,7 @@ const ProductList = ({
         const selectedQuantity = selectedProduct ? selectedProduct.quantity : 0;
 
         return (
-          <div
-            key={j}
-            className={`bg-white p-4 rounded shadow-md shadow-mogeColor`}
-          >
+          <div key={j} className={`bg-white p-4 rounded`}>
             {!admin ? (
               <Product
                 product={product}

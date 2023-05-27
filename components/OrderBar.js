@@ -23,7 +23,7 @@ export default function OrderBar({
   return (
     <div
       id="orderBar"
-      className={`fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 flex flex-col max-h-[30vh] gap-2 z-50`}
+      className={`sticky bottom-0 left-0 right-0 bg-gray-900 text-white p-4 flex flex-col max-h-[30vh] gap-2 z-50`}
     >
       <div className="flex justify-between gap-2">
         <div className="overflow-y-auto border border-white w-full max-h-[20vh] rounded-sm px-1">

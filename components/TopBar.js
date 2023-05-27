@@ -52,12 +52,7 @@ export default function TopBar({ categories, state, setState, main }) {
       <div
         id="topBar"
         ref={topBarRef}
-        className="p-2 py-3 overflow-auto flex items-center gap-2 w-full fixed top-0 bg-white z-10
-          shadow-md
-          backdrop-filter
-          backdrop-blur-lg
-          bg-opacity-50
-      "
+        className="p-2 py-3 overflow-auto flex items-center gap-2 w-full fixed top-0 bg-white z-10 shadow-md backdrop-filter backdrop-blur-lg bg-opacity-50 scrollbar-hide"
       >
         {categories?.map((category, i) => {
           const selected = state === category.name;
