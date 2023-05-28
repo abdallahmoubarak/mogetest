@@ -67,33 +67,38 @@ export default function Product({
             />
           </div>
         )}
-        {isOpened ? (
-          <div className="flex flex-row items-center justify-center p-2 max-w-[100px] gap-2">
-            <button
-              onClick={decrease}
-              className="bg-transparent border-none cursor-pointer"
-            >
-              <FiMinusCircle size={30} className="text-mogeColor" />
-            </button>
-            <span className="text-center text-black">{selectedQuantity}</span>
-            <button
-              onClick={increase}
-              className="bg-transparent border-none cursor-pointer"
-            >
-              <FiPlusCircle size={30} className="text-mogeColor" />
-            </button>
-          </div>
-        ) : (
-          <button
-            onClick={() => {
-              setIsOpened(true);
-              increase();
-            }}
-            className="flex items-center justify-center p-1 m-1 w-[80px] text-white bg-[#fed493] rounded-sm"
-          >
-            Order
-          </button>
-        )}
+        {product.exist &&
+          (() => {
+            return isOpened ? (
+              <div className="flex flex-row items-center justify-center p-2 max-w-[100px] gap-2">
+                <button
+                  onClick={decrease}
+                  className="bg-transparent border-none cursor-pointer"
+                >
+                  <FiMinusCircle size={30} className="text-mogeColor" />
+                </button>
+                <span className="text-center text-black">
+                  {selectedQuantity}
+                </span>
+                <button
+                  onClick={increase}
+                  className="bg-transparent border-none cursor-pointer"
+                >
+                  <FiPlusCircle size={30} className="text-mogeColor" />
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => {
+                  setIsOpened(true);
+                  increase();
+                }}
+                className="flex items-center justify-center p-1 m-1 w-[80px] text-white bg-[#fed493] rounded-sm"
+              >
+                Order
+              </button>
+            );
+          })()}
       </div>
     </div>
   );
